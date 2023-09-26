@@ -1,4 +1,4 @@
-module github/nycu-ucr/oauth2
+module github.com/nycu-ucr/oauth2
 
 go 1.18
 
