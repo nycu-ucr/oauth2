@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"io"
 	"io/ioutil"
-	"net/http"
+	"github.com/nycu-ucr/gonet/http"
 	"time"
 
 	"golang.org/x/oauth2"

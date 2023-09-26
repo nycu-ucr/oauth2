@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"io"
 	"io/ioutil"
-	"net/http"
+	"github.com/nycu-ucr/gonet/http"
 	"net/url"
 	"strconv"
 	"strings"

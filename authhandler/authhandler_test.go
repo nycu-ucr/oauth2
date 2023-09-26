@@ -7,7 +7,7 @@ package authhandler
 import (
 	"context"
 	"fmt"
-	"net/http"
+	"github.com/nycu-ucr/gonet/http"
 	"net/http/httptest"
 	"testing"
 

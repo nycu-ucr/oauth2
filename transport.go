@@ -7,7 +7,7 @@ package oauth2
 import (
 	"errors"
 	"log"
-	"net/http"
+	"github.com/nycu-ucr/gonet/http"
 	"sync"
 )
 

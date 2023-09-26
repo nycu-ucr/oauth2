@@ -8,7 +8,7 @@ import (
 	"context"
 	"encoding/json"
 	"io/ioutil"
-	"net/http"
+	"github.com/nycu-ucr/gonet/http"
 	"net/http/httptest"
 	"net/url"
 	"testing"

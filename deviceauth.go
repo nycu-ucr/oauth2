@@ -6,7 +6,7 @@ import (
 	"errors"
 	"fmt"
 	"io"
-	"net/http"
+	"github.com/nycu-ucr/gonet/http"
 	"net/url"
 	"strings"
 	"time"

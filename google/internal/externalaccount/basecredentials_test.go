@@ -8,7 +8,7 @@ import (
 	"context"
 	"fmt"
 	"io/ioutil"
-	"net/http"
+	"github.com/nycu-ucr/gonet/http"
 	"net/http/httptest"
 	"testing"
 	"time"

@@ -11,7 +11,7 @@ import (
 	"errors"
 	"fmt"
 	"io"
-	"net/http"
+	"github.com/nycu-ucr/gonet/http"
 	"os"
 	"os/user"
 	"path/filepath"

@@ -8,7 +8,7 @@ import (
 	"context"
 	"encoding/base64"
 	"encoding/json"
-	"net/http"
+	"github.com/nycu-ucr/gonet/http"
 	"net/http/httptest"
 	"strings"
 	"testing"

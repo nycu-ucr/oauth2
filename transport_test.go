@@ -3,7 +3,7 @@ package oauth2
 import (
 	"errors"
 	"io"
-	"net/http"
+	"github.com/nycu-ucr/gonet/http"
 	"net/http/httptest"
 	"testing"
 	"time"

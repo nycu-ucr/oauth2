@@ -7,7 +7,7 @@ package externalaccount
 import (
 	"context"
 	"fmt"
-	"net/http"
+	"github.com/nycu-ucr/gonet/http"
 	"net/url"
 	"regexp"
 	"strconv"

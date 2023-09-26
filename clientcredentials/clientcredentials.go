@@ -16,7 +16,7 @@ package clientcredentials // import "golang.org/x/oauth2/clientcredentials"
 import (
 	"context"
 	"fmt"
-	"net/http"
+	"github.com/nycu-ucr/gonet/http"
 	"net/url"
 	"strings"
 

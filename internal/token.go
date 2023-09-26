@@ -13,7 +13,7 @@ import (
 	"io/ioutil"
 	"math"
 	"mime"
-	"net/http"
+	"github.com/nycu-ucr/gonet/http"
 	"net/url"
 	"strconv"
 	"strings"

@@ -5,7 +5,7 @@
 package google
 
 import (
-	"net/http"
+	"github.com/nycu-ucr/gonet/http"
 	"testing"
 
 	"golang.org/x/oauth2"

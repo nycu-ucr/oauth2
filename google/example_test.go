@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"log"
-	"net/http"
+	"github.com/nycu-ucr/gonet/http"
 
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"

@@ -8,7 +8,7 @@ import (
 	"context"
 	"fmt"
 	"log"
-	"net/http"
+	"github.com/nycu-ucr/gonet/http"
 	"time"
 
 	"golang.org/x/oauth2"

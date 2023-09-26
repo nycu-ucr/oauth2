@@ -12,7 +12,7 @@ import (
 	"bytes"
 	"context"
 	"errors"
-	"net/http"
+	"github.com/nycu-ucr/gonet/http"
 	"net/url"
 	"strings"
 	"sync"
