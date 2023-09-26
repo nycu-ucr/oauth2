@@ -5,7 +5,7 @@ go 1.18
 require (
 	cloud.google.com/go/compute/metadata v0.2.3
 	github.com/google/go-cmp v0.5.9
-	github.com/nycu-ucr/gonet v0.0.0-20230321050809-f6bf07ae0d7e
+	github.com/nycu-ucr/gonet v0.0.0-20230328095129-6e9ca74b90b5
 	golang.org/x/oauth2 v0.8.0
 	google.golang.org/appengine v1.6.7
 )
@@ -13,9 +13,10 @@ require (
 require (
 	cloud.google.com/go/compute v1.20.1 // indirect
 	github.com/antonfisher/nested-logrus-formatter v1.3.1 // indirect
+	github.com/cornelk/hashmap v1.0.8 // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/nycu-ucr/net v0.0.0-20230307120859-5f5d7afdaf03 // indirect
-	github.com/nycu-ucr/onvmpoller v0.0.0-20230222141454-8145d720d05c // indirect
+	github.com/nycu-ucr/onvmpoller v0.0.0-20230328094138-e24131a655bb // indirect
 	github.com/sirupsen/logrus v1.9.0 // indirect
 	golang.org/x/net v0.15.0 // indirect
 	golang.org/x/sys v0.12.0 // indirect
