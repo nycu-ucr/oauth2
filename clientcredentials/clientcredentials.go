@@ -21,7 +21,7 @@ import (
 	"strings"
 
 	"golang.org/x/oauth2"
-	"golang.org/x/oauth2/internal"
+	"github.com/nycu-ucr/oauth2/internal"
 )
 
 // Config describes a 2-legged OAuth2 flow, with both the

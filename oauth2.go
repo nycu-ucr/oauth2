@@ -18,7 +18,7 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/oauth2/internal"
+	"github.com/nycu-ucr/oauth2/internal"
 )
 
 // NoContext is the default context you should supply if not using
