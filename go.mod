@@ -13,7 +13,6 @@ require (
 require (
 	cloud.google.com/go/compute v1.20.1 // indirect
 	github.com/antonfisher/nested-logrus-formatter v1.3.1 // indirect
-	github.com/cornelk/hashmap v1.0.8 // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/nycu-ucr/net v0.0.0-20230307120859-5f5d7afdaf03 // indirect
 	github.com/nycu-ucr/onvmpoller v0.0.0-20230328094138-e24131a655bb // indirect
