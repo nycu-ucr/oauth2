@@ -6,12 +6,13 @@ import (
 	"errors"
 	"fmt"
 	"io"
-	"github.com/nycu-ucr/gonet/http"
 	"net/url"
 	"strings"
 	"time"
 
-	"golang.org/x/oauth2/internal"
+	"github.com/nycu-ucr/gonet/http"
+
+	"github.com/nycu-ucr/oauth2/internal"
 )
 
 // https://datatracker.ietf.org/doc/html/rfc8628#section-3.5
