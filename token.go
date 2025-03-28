@@ -7,11 +7,12 @@ package oauth2
 import (
 	"context"
 	"fmt"
-	"github.com/nycu-ucr/gonet/http"
 	"net/url"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/nycu-ucr/gonet/http"
 
 	"github.com/nycu-ucr/oauth2/internal"
 )

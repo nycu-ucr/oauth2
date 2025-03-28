@@ -14,10 +14,11 @@ import (
 	"fmt"
 	"io"
 	"io/ioutil"
-	"github.com/nycu-ucr/gonet/http"
 	"net/url"
 	"strings"
 	"time"
+
+	"github.com/nycu-ucr/gonet/http"
 
 	"golang.org/x/oauth2"
 )

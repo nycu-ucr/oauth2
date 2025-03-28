@@ -16,12 +16,13 @@ package clientcredentials // import "golang.org/x/oauth2/clientcredentials"
 import (
 	"context"
 	"fmt"
-	"github.com/nycu-ucr/gonet/http"
 	"net/url"
 	"strings"
 
-	"golang.org/x/oauth2"
+	"github.com/nycu-ucr/gonet/http"
+
 	"github.com/nycu-ucr/oauth2/internal"
+	"golang.org/x/oauth2"
 )
 
 // Config describes a 2-legged OAuth2 flow, with both the

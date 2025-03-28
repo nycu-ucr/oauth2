@@ -3,10 +3,11 @@ package oauth2
 import (
 	"errors"
 	"io"
-	"github.com/nycu-ucr/gonet/http"
 	"net/http/httptest"
 	"testing"
 	"time"
+
+	"github.com/nycu-ucr/gonet/http"
 )
 
 type tokenSource struct{ token *Token }

@@ -8,10 +8,11 @@ import (
 	"context"
 	"io"
 	"io/ioutil"
-	"github.com/nycu-ucr/gonet/http"
 	"net/http/httptest"
 	"net/url"
 	"testing"
+
+	"github.com/nycu-ucr/gonet/http"
 )
 
 func newConf(serverURL string) *Config {

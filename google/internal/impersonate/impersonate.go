@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-package externalaccount
+package impersonate
 
 import (
 	"bytes"
@@ -11,8 +11,9 @@ import (
 	"fmt"
 	"io"
 	"io/ioutil"
-	"github.com/nycu-ucr/gonet/http"
 	"time"
+
+	"github.com/nycu-ucr/gonet/http"
 
 	"golang.org/x/oauth2"
 )

@@ -5,8 +5,9 @@
 package google
 
 import (
-	"github.com/nycu-ucr/gonet/http"
 	"testing"
+
+	"github.com/nycu-ucr/gonet/http"
 
 	"golang.org/x/oauth2"
 )

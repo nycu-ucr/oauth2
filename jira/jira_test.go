@@ -8,10 +8,11 @@ import (
 	"context"
 	"encoding/base64"
 	"encoding/json"
-	"github.com/nycu-ucr/gonet/http"
 	"net/http/httptest"
 	"strings"
 	"testing"
+
+	"github.com/nycu-ucr/gonet/http"
 
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/jws"

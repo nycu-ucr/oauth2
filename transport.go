@@ -7,8 +7,9 @@ package oauth2
 import (
 	"errors"
 	"log"
-	"github.com/nycu-ucr/gonet/http"
 	"sync"
+
+	"github.com/nycu-ucr/gonet/http"
 )
 
 // Transport is an http.RoundTripper that makes OAuth 2.0 HTTP requests,

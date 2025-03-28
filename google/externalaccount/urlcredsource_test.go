@@ -7,9 +7,10 @@ package externalaccount
 import (
 	"context"
 	"encoding/json"
-	"github.com/nycu-ucr/gonet/http"
 	"net/http/httptest"
 	"testing"
+
+	"github.com/nycu-ucr/gonet/http"
 )
 
 var myURLToken = "testTokenValue"
@@ -28,11 +29,11 @@ func TestRetrieveURLSubjectToken_Text(t *testing.T) {
 	heads["Metadata"] = "True"
 	cs := CredentialSource{
 		URL:     ts.URL,
-		Format:  format{Type: fileTypeText},
+		Format:  Format{Type: fileTypeText},
 		Headers: heads,
 	}
 	tfc := testFileConfig
-	tfc.CredentialSource = cs
+	tfc.CredentialSource = &cs
 
 	base, err := tfc.parse(context.Background())
 	if err != nil {
@@ -60,7 +61,7 @@ func TestRetrieveURLSubjectToken_Untyped(t *testing.T) {
 		URL: ts.URL,
 	}
 	tfc := testFileConfig
-	tfc.CredentialSource = cs
+	tfc.CredentialSource = &cs
 
 	base, err := tfc.parse(context.Background())
 	if err != nil {
@@ -93,10 +94,10 @@ func TestRetrieveURLSubjectToken_JSON(t *testing.T) {
 	}))
 	cs := CredentialSource{
 		URL:    ts.URL,
-		Format: format{Type: fileTypeJSON, SubjectTokenFieldName: "SubjToken"},
+		Format: Format{Type: fileTypeJSON, SubjectTokenFieldName: "SubjToken"},
 	}
 	tfc := testFileConfig
-	tfc.CredentialSource = cs
+	tfc.CredentialSource = &cs
 
 	base, err := tfc.parse(context.Background())
 	if err != nil {
@@ -115,10 +116,10 @@ func TestRetrieveURLSubjectToken_JSON(t *testing.T) {
 func TestURLCredential_CredentialSourceType(t *testing.T) {
 	cs := CredentialSource{
 		URL:    "http://example.com",
-		Format: format{Type: fileTypeText},
+		Format: Format{Type: fileTypeText},
 	}
 	tfc := testFileConfig
-	tfc.CredentialSource = cs
+	tfc.CredentialSource = &cs
 
 	base, err := tfc.parse(context.Background())
 	if err != nil {

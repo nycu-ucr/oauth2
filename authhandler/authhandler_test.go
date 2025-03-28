@@ -7,9 +7,10 @@ package authhandler
 import (
 	"context"
 	"fmt"
-	"github.com/nycu-ucr/gonet/http"
 	"net/http/httptest"
 	"testing"
+
+	"github.com/nycu-ucr/gonet/http"
 
 	"golang.org/x/oauth2"
 )

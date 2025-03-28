@@ -13,13 +13,14 @@ import (
 	"io/ioutil"
 	"math"
 	"mime"
-	"github.com/nycu-ucr/gonet/http"
 	"net/url"
 	"strconv"
 	"strings"
 	"sync"
 	"sync/atomic"
 	"time"
+
+	"github.com/nycu-ucr/gonet/http"
 )
 
 // Token represents the credentials used to authorize

@@ -12,11 +12,12 @@ import (
 	"bytes"
 	"context"
 	"errors"
-	"github.com/nycu-ucr/gonet/http"
 	"net/url"
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/nycu-ucr/gonet/http"
 
 	"github.com/nycu-ucr/oauth2/internal"
 )
@@ -393,7 +394,7 @@ func ReuseTokenSource(t *Token, src TokenSource) TokenSource {
 	}
 }
 
-// ReuseTokenSource returns a TokenSource that acts in the same manner as the
+// ReuseTokenSourceWithExpiry returns a TokenSource that acts in the same manner as the
 // TokenSource returned by ReuseTokenSource, except the expiry buffer is
 // configurable. The expiration time of a token is calculated as
 // t.Expiry.Add(-earlyExpiry).

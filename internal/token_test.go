@@ -9,10 +9,11 @@ import (
 	"fmt"
 	"io"
 	"math"
-	"github.com/nycu-ucr/gonet/http"
 	"net/http/httptest"
 	"net/url"
 	"testing"
+
+	"github.com/nycu-ucr/gonet/http"
 )
 
 func TestRetrieveToken_InParams(t *testing.T) {

@@ -10,11 +10,12 @@ import (
 	"fmt"
 	"io"
 	"io/ioutil"
-	"github.com/nycu-ucr/gonet/http"
 	"net/http/httptest"
 	"net/url"
 	"testing"
 	"time"
+
+	"github.com/nycu-ucr/gonet/http"
 )
 
 type mockTransport struct {
